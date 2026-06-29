@@ -5,7 +5,7 @@ export const HERO_DATA = {
   subtitle: "WE'RE GETTING MARRIED",
   date: 'JUNE 18, 2027',
   location: 'Lake Como, Italy',
-  image: '/src/assets/images/cover_home_page.JPG'
+  image: '/src/assets/images/angkor-wat_prewedding.png'
 };
 
 export const WELCOME_DATA = {

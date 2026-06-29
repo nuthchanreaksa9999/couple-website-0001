@@ -1,5 +1,5 @@
 import { TimelineEvent, HotelRecommendation, GalleryItem, StorySection } from './types';
-import heroImage from './assets/images/angkor-wat_prewedding.png';
+import heroImage from './assets/images/angkor-wat-prewedding-v2.png';
 import welcomeImage from './assets/images/celebration_welcome_1782709672972.jpg';
 import storyHowWeMetImage from './assets/images/story_how_we_met_1782709688775.jpg';
 import proposalMomentImage from './assets/images/proposal_moment_1782709705853.jpg';

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Pinyon+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif-elegant: "Cormorant Garamond", serif;
+  --font-display: "Cinzel", serif;
+  --font-script: "Pinyon Script", cursive;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom styles for luxury styling and page layout */
+body {
+  font-family: var(--font-sans);
+  background-color: #f7f5f0; /* Warm off-white background matching the mockup */
+  color: #2c2a29; /* Dark warm charcoal */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars for absolute clean look on certain cards, but keep active */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

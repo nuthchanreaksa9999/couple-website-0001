@@ -1,0 +1,6 @@
+{
+  "name": "Eleanor & James - Wedding Celebration",
+  "description": "An elegant, interactive wedding website for Eleanor & James in Lake Como, Italy, featuring beautiful page transitions, interactive RSVP tracking, dynamic timeline, travel accommodations, and a customized media gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

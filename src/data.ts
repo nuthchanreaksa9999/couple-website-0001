@@ -1,18 +1,22 @@
 import { TimelineEvent, HotelRecommendation, GalleryItem, StorySection } from './types';
+import heroImage from './assets/images/angkor-wat_prewedding.png';
+import welcomeImage from './assets/images/celebration_welcome_1782709672972.jpg';
+import storyHowWeMetImage from './assets/images/story_how_we_met_1782709688775.jpg';
+import proposalMomentImage from './assets/images/proposal_moment_1782709705853.jpg';
 
 export const HERO_DATA = {
   names: 'ELEANOR & JAMES',
   subtitle: "WE'RE GETTING MARRIED",
   date: 'JUNE 18, 2027',
   location: 'Lake Como, Italy',
-  image: '/src/assets/images/angkor-wat_prewedding.png'
+  image: heroImage
 };
 
 export const WELCOME_DATA = {
   subtitle: 'WELCOME',
   title: 'A Celebration of Love',
   description: 'Together with our families, we invite you to celebrate our wedding weekend in beautiful Lake Como, Italy.',
-  image: '/src/assets/images/celebration_welcome_1782709672972.jpg'
+  image: welcomeImage
 };
 
 export const STORY_SECTIONS: StorySection[] = [
@@ -21,7 +25,7 @@ export const STORY_SECTIONS: StorySection[] = [
     title: 'OUR STORY',
     subtitle: 'How We Met',
     content: 'It all started in a little coffee shop on a rainy day in Paris. A chance meeting that turned into the greatest love story we ever could have imagined. Over countless conversations, late-night walks, and shared adventures around the world, we realized we had found our forever in each other.',
-    image: '/src/assets/images/story_how_we_met_1782709688775.jpg',
+    image: storyHowWeMetImage,
     imageAlt: 'Eleanor and James walking in Italy'
   },
   {
@@ -29,7 +33,7 @@ export const STORY_SECTIONS: StorySection[] = [
     title: 'THE PROPOSAL',
     subtitle: 'The Best Day of Our Lives',
     content: 'Overlooking the majestic cliffs of Positano, surrounded by hundreds of flickering candles and the gentle sound of the crashing waves, James asked and Eleanor said yes. It was a perfect, magical moment that we will cherish for the rest of our lives, and the beginning of our journey to the altar.',
-    image: '/src/assets/images/proposal_moment_1782709705853.jpg',
+    image: proposalMomentImage,
     imageAlt: 'James proposing to Eleanor'
   }
 ];
